@@ -33,6 +33,6 @@ def spamEveryMinute():
 
         print "Email sent to: " + ', '.join(recipients)
         s.quit()
-        time.sleep(60) # change rate of fire here
+        time.sleep(0.1) # change rate of fire here
 
 spamEveryMinute()
