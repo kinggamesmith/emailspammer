@@ -6,10 +6,10 @@ from email.Header import Header
 from email.mime.text import MIMEText
 #Open a file for reading
 
-me = '' # change to your email
-p_reader = open('password.txt', 'rb') # edit for your password
+me = 'essexvictor7@gmail.com' # change to your email
+p_reader = open('marshmallowfridge', 'rb') # edit for your password
 cipher = p_reader.read()
-recipients = [''] # enter recipients here
+recipients = ['washingtonsilver4@gmail.com'] # enter recipients here
 
 
 def spamEveryMinute():
